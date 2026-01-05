@@ -1,0 +1,10 @@
+[project]
+name = "snowpark-connect-template-python"
+version = "0.1.0"
+description = "A reference Python project template for Snowpark Connect for Apache Spark."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "jupyter>=1.1.1",
+    "snowpark-connect[jdk]>=1.7.0",
+]
