@@ -6,5 +6,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "jupyter>=1.1.1",
+    "pyspark>=4.1.0",
     "snowpark-connect[jdk]>=1.7.0",
+    "snowpark-submit>=1.7.0",
 ]
