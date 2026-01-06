@@ -10,3 +10,10 @@ dependencies = [
     "snowpark-connect[jdk]>=1.7.0",
     "snowpark-submit>=1.7.0",
 ]
+
+# This causes a conflict with snowpark-connect, can't be installed in the same Python environment. :(
+# https://github.com/sfc-gh-jfreeberg/snowpark-connect-template-python/issues/2
+# [project.optional-dependencies]
+# cli = [
+#     "snowflake-cli>=3.12.0",
+# ]
